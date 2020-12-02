@@ -63,13 +63,13 @@ int		get_next_line(int fd, char **line)
 
 	if (!line || fd < 0 || BUFFER_SIZE < 1 || read(fd, buff, 0) < 0)
 		return (-1);
-	if (str && (((i = find(str, '\n')) != -1)))
+	if (str && (i = find(str, '\n')) != -1)
 		return (copy_line(str, line, i));
 	while (((ret = read(fd, buff, BUFFER_SIZE)) > 0))
 	{
 		buff[ret] = '\0';
 		str = join_free(str, buff);
-		if (((i = find(str, '\n')) != -1))
+		if ((i = find(str, '\n')) != -1)
 			return (copy_line(str, line, i));
 	}
 	if (str)
