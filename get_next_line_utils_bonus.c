@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sfournio <sfournio@student.42lyon.fr>      +#+  +:+       +#+        */
+/*   By: bycop <bycop@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/12/01 07:10:00 by sfournio          #+#    #+#             */
-/*   Updated: 2020/12/01 21:39:30 by sfournio         ###   ########lyon.fr   */
+/*   Created: 2020/12/01 07:10:00 by bycop          #+#    #+#             */
+/*   Updated: 2020/12/01 21:39:30 by bycop         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
